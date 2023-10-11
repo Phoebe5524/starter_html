@@ -1,0 +1,19 @@
+body{
+  background-color: #737373;
+  font-size: 18px;
+}
+
+main h1, main div{
+  background-color: #737373;
+  font-size: 18px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+img{
+  width: 200px;
+}
