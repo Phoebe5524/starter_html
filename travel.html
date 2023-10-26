@@ -3,25 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <title>Travel</title>
 </head>
-<body>
+<body class="travel-body">
 
     <header>
-        <a href = "#main-content">Skip to Main Content</a>
-        <nav>
-            <ul>
-                <li class="active"><a href = "index.html" >Pets</a></li>
-                <li><a href = "travel.html">Travel</a></li>
-                <li><a href = "recipes.html">Recipes</a></li>
-             </ul>
-         </nav>
+        <a href = "#main-content" class="skip">Skip to Main Content</a>
+            <nav>
+                <ul>
+                    <li><a href = "index.html" >Pets</a></li>
+                    <li><a class = "current" href = "travel.html">Travel</a></li>
+                    <li><a href = "recipes.html">Recipes</a></li>
+                </ul>
+            </nav>
     </header>
 
 
     <main id="main-content">
-        <div>
-            <h1>Let's see beautiful view!</h1>
+        <h1>Let's see beautiful view!</h1>
+        <div class="travel">
+        <div>    
             <h2>Yellowstone</h2>
     
             <img src="images/yellowstone_cauldron.gif" width="400" alt="Bubbling cauldron.">
@@ -151,7 +158,7 @@
             </figure>
             <!-- Colleen van Lent -->
         </div>
-
+        </div>
     </main>
 </body>
 </html>
